@@ -40,4 +40,60 @@ The project uses a combination of disaster-related and AI-authentication dataset
 - **CIFAKE: Real and AI-Generated Images**  
   https://www.kaggle.com/datasets/birdy654/cifake-real-and-ai-generated-synthetic-images  
 
-- **Real vs Fake**
+- **Real vs Fake Turkey Earthquake Images**  
+  https://www.kaggle.com/datasets/merveakdogan/real-vs-fake-turkey-earthquake  
+
+---
+
+## 🧠 Approach
+The project follows an experimental, research-driven workflow:
+
+1. Conducted a literature review on disaster response image classification and AI image authentication  
+2. Collected and curated datasets from multiple public sources  
+3. Implemented transfer learning using pre-trained CNN architectures  
+4. Experimented with multiple model configurations and preprocessing pipelines  
+5. Evaluated feasibility and limitations under real-world constraints  
+
+Several open-source implementations were referenced to guide model design and dataset handling.
+
+---
+
+## 💻 Code & Notebooks
+Development was conducted primarily in **Google Colab** due to its built-in TensorFlow support. This repository includes multiple notebooks exploring different model architectures and dataset configurations.
+
+**Colab Notebooks:**
+- https://colab.research.google.com/drive/149VS6Ov2zSwyTJaXU8g75qb0L6GJ4tQ4  
+- https://colab.research.google.com/drive/1YtsfefGepkYVoukK6ndukrbHa2L7stO3  
+- https://colab.research.google.com/drive/1u2VTRf5O2ciSaAYeiLjEj6EfRTTde_CN  
+
+> ⚠️ These notebooks represent **experimental prototypes**. Some models are incomplete and were created to explore architecture behavior, data preprocessing, and feasibility rather than final accuracy.
+
+---
+
+## 📈 Results
+Due to limited data availability, dataset complexity, and computational constraints, the models did not achieve production-level accuracy. However, the experiments demonstrated promising signals for both disaster classification and AI-generated image detection, validating the project as a proof of concept.
+
+The project and findings were presented at a **poster celebration event**.
+
+<!-- Add poster image here -->
+
+---
+
+## 🧩 Challenges & Lessons Learned
+- Limited availability of AI-generated disaster imagery  
+- Complex dataset structures, particularly within the MEDIC dataset  
+- Learning correct transfer learning workflows and avoiding retraining pre-trained weights  
+- High computational cost of deep CNN models  
+- Debugging inference and image input pipelines  
+
+These challenges provided valuable experience working with real-world data and highlighted the gap between academic models and practical deployment.
+
+---
+
+## 🚧 Current Status
+This project is ongoing and remains a **research-focused proof of concept**. Future work includes improving dataset quality, refining model architectures, and exploring automated data collection methods.
+
+---
+
+## 🤝 Acknowledgments
+Special thanks to **Allisson** for her collaboration and contributions throughout this project.
